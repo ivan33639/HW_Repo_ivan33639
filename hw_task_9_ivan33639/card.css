@@ -1,0 +1,18 @@
+.card {
+    background-color: lightgray;    
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    width: calc((100% - 70px) / 4);
+    margin: 16px 16px 16px px;
+    vertical-align: middle;
+  }
+
+  .card__img    {
+    border-radius: 12px;
+    width: 10%;
+  }
+
+  .card__img:hover {
+    width: 100%;
+}
